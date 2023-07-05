@@ -1,0 +1,57 @@
+[
+  {
+    "number": 1,
+    "question": "What is the difference between the equals() method and the == operator in Java?",
+    "answers": {
+      "A": "The equals() method compares the values of two objects, while the == operator compares their references.",
+      "B": "The equals() method compares the references of two objects, while the == operator compares their values.",
+      "C": "Both the equals() method and the == operator compare the values of two objects.",
+      "D": "Both the equals() method and the == operator compare the references of two objects."
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 2,
+    "question": "What is the difference between checked and unchecked exceptions in Java?",
+    "answers": {
+      "A": "Checked exceptions are checked at compile-time, while unchecked exceptions are checked at runtime.",
+      "B": "Checked exceptions are checked at runtime, while unchecked exceptions are checked at compile-time.",
+      "C": "Both checked and unchecked exceptions are checked at compile-time.",
+      "D": "Both checked and unchecked exceptions are checked at runtime."
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 3,
+    "question": "What is the purpose of the 'final' keyword in Java?",
+    "answers": {
+      "A": "The 'final' keyword is used to indicate that a class cannot be extended.",
+      "B": "The 'final' keyword is used to indicate that a method cannot be overridden.",
+      "C": "The 'final' keyword is used to indicate that a variable cannot be reassigned.",
+      "D": "All of the above."
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "number": 4,
+    "question": "What is the difference between a class and an object in Java?",
+    "answers": {
+      "A": "A class is a blueprint for creating objects, while an object is an instance of a class.",
+      "B": "A class is an instance of an object, while an object is a blueprint for creating classes.",
+      "C": "Both a class and an object are blueprints for creating instances.",
+      "D": "Both a class and an object are instances of each other."
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 5,
+    "question": "What is the purpose of the 'static' keyword in Java?",
+    "answers": {
+      "A": "The 'static' keyword is used to indicate that a variable or method belongs to the class, rather than an instance of the class.",
+      "B": "The 'static' keyword is used to indicate that a variable or method belongs to an instance of the class, rather than the class itself.",
+      "C": "The 'static' keyword is used to indicate that a variable or method can only be accessed within the same package.",
+      "D": "The 'static' keyword is used to indicate that a variable or method can only be accessed from subclasses."
+    },
+    "correctAnswer": "A"
+  }
+]
