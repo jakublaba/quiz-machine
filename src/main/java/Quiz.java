@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Quiz {
@@ -18,14 +19,14 @@ public class Quiz {
             }
 
             Question.Answer userChoice;
-            do {
+            while (true) {
                 try {
                     userChoice = Question.Answer.valueOf(in.next().toUpperCase());
                     break;
                 } catch (RuntimeException e) {
                     System.err.printf("Valid options are: %s (case-insensitive)\n", Arrays.toString(Question.Answer.values()));
                 }
-            } while (true);
+            }
 
             if (userChoice.equals(q.correctAnswer())) {
                 score++;
