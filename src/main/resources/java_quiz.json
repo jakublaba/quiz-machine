@@ -1,6 +1,5 @@
 [
   {
-    "number": 1,
     "question": "What is the difference between the equals() method and the == operator in Java?",
     "answers": {
       "A": "The equals() method compares the values of two objects, while the == operator compares their references.",
@@ -11,7 +10,6 @@
     "correctAnswer": "A"
   },
   {
-    "number": 2,
     "question": "What is the difference between checked and unchecked exceptions in Java?",
     "answers": {
       "A": "Checked exceptions are checked at compile-time, while unchecked exceptions are checked at runtime.",
@@ -22,7 +20,6 @@
     "correctAnswer": "A"
   },
   {
-    "number": 3,
     "question": "What is the purpose of the 'final' keyword in Java?",
     "answers": {
       "A": "The 'final' keyword is used to indicate that a class cannot be extended.",
@@ -33,7 +30,6 @@
     "correctAnswer": "D"
   },
   {
-    "number": 4,
     "question": "What is the difference between a class and an object in Java?",
     "answers": {
       "A": "A class is a blueprint for creating objects, while an object is an instance of a class.",
@@ -44,7 +40,6 @@
     "correctAnswer": "A"
   },
   {
-    "number": 5,
     "question": "What is the purpose of the 'static' keyword in Java?",
     "answers": {
       "A": "The 'static' keyword is used to indicate that a variable or method belongs to the class, rather than an instance of the class.",

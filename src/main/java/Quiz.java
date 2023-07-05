@@ -12,8 +12,10 @@ public class Quiz {
     }
 
     public void start() {
+        Collections.shuffle(Arrays.asList(questions));
+        var questionNumber = 1;
         for (var q : questions) {
-            System.out.printf("%d. %s\n", q.number(), q.question());
+            System.out.printf("%d. %s\n", questionNumber++, q.question());
             for (var a : q.answers().entrySet()) {
                 System.out.printf("%s) %s\n", a.getKey(), a.getValue());
             }
